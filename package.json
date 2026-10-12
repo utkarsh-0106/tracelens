@@ -1,0 +1,19 @@
+{
+  "name": "tracelens",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CausalFunnel full-stack user analytics assignment",
+  "workspaces": [
+    "server",
+    "client/dashboard",
+    "client/demo-site"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev -w server",
+    "dev:dashboard": "npm run dev -w dashboard",
+    "dev:demo": "npm run dev -w demo-site",
+    "test:server": "npm run test -w server",
+    "build": "npm run build -w dashboard && npm run build -w demo-site",
+    "test:integration": "npm run test:integration -w server"
+  }
+}

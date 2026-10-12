@@ -1,0 +1,10 @@
+import React from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App.jsx";
+import "./style.css";
+const tracker = document.createElement("script");
+tracker.src = "/tracker.js";
+tracker.dataset.apiBase = import.meta.env.VITE_API_BASE || "http://localhost:5000";
+tracker.defer = true;
+document.head.appendChild(tracker);
+createRoot(document.getElementById("root")).render(<React.StrictMode><App /></React.StrictMode>);
