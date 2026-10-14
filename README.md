@@ -230,10 +230,13 @@ Potential next steps include time-bounded sessions, richer analytics and filteri
 TraceLens was developed as a demonstration of full-stack engineering across browser instrumentation, API design, data persistence, analytics queries, dashboard development, and automated testing.
 
 **Repository:** [github.com/utkarsh-0106/tracelens](https://github.com/utkarsh-0106/tracelens)
+
 ## 🎬 TraceLens Launch Video
 
 See how TraceLens transforms user interactions into actionable behavioral insights.
 
 **Every click tells a story.**
 
-https://github.com/user-attachments/assets/YOUR_ACTUAL_GENERATED_ID
+https://github.com/user-attachments/assets/2127bfd3-faeb-4b17-b394-eb82e166e65f
+
+
